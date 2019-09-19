@@ -1,0 +1,23 @@
+.listado{
+	display: flex;
+	flex-direction: row;
+	padding:40px 20px;
+}
+.listado li{
+	padding: 0 10px;
+}
+.listado li label{
+	padding-bottom: 5px;
+	display: block;
+}
+.listado li input{
+	width: 100%;
+	padding: 5px;
+}
+.listado li button{
+	width: 100%;
+	padding: 16px 20px;
+	background: orange;
+	border: 0;
+	cursor: pointer;
+}
