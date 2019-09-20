@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Buscador } from './Components/Buscador/';
+import { Pokedex } from './Components/Pokedex/';
 
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-      	<h1>PokéDex</h1>
-      	<Buscador />
-      </div>
+      	<Pokedex />
     </div>
   );
 }

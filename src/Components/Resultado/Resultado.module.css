@@ -1,0 +1,15 @@
+.resultado img{
+	width: 100%;
+	display: block;
+}
+
+.resultado a{
+	cursor: pointer;
+	display: block;
+	padding: 10px;
+	background: #f5263510;
+	border-radius: 5px;
+}
+.resultado a:hover{
+	background: #f5263525;
+}
